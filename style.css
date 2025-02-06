@@ -1,0 +1,286 @@
+body{
+    background-color: purple;
+}
+.container{
+    background-color: white;
+    width: 750px;
+    height: 2100px;
+    border-radius: 20px;
+    margin: 30px  auto;
+    box-shadow: 10px 10px 20px 30px black;
+    padding-left: 30px;
+}
+table, tr, th, td{
+    border: 2px solid purple;
+}
+th{
+    color: purple;
+}
+h1{
+    font-size: 40px;
+}
+.title{
+    color: purple;
+    padding-left: 190px;
+}
+.question{
+    font-size: 50px;
+    font-weight: 500px;
+    margin-left: 30px;
+}
+.admission{
+    align-items: center;
+    color: purple;
+    margin-left: 50px;
+    font-size: 25px;
+    text-decoration: underline;
+    padding-bottom: 20px;
+
+}
+img{
+    box-shadow: 1px 1px 3px 3px white;
+}
+.motto{
+    background-color: purple;
+    color: white;
+    width: 350px;
+    padding-left: 30px;
+    margin-left: -20px;
+}
+span{
+    font-size: 20px;
+}
+.student input{
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid purple;
+    justify-content: space-between;
+    margin: 10px;
+    color: purple;
+}
+.student input:hover{
+    background-color: purple;
+    color: white;
+}
+#first{
+    padding-left: 100px;
+}
+#second{
+    margin-left: 80px;
+    padding-left: 100px;
+}
+#third{
+    margin-left: 80px;
+    padding-left: 100px;
+}
+#fourth{
+    margin-left: 70px;
+    padding-left: 100px;
+}
+#fifth{
+    margin-left: 40px;
+    padding-left: 100px;
+}
+#sixth{
+    padding-left: 100px;
+}
+#seventh{
+    width: 700px;
+}
+#male{
+    width: 20px;
+    background-color: purple;
+}
+#female{
+    width: 20px;
+}
+#Date{
+    background-color: purple;
+    color: white;
+    height: 30px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-left: 20px;
+}
+#male{
+    border: 3px solid purple;
+}
+table{
+    margin-left: -20px;
+    width: 1px;
+    height: 200px;
+}
+table input{
+  height: 50px;
+  border-radius: 10px;
+  align-items: center;
+}
+hr{
+    border: 2px solid purple;
+    width: 400px;
+    margin-bottom: 20px;
+}
+.record{
+    color: purple;
+}
+.parent{
+    font-size: 25px;
+    color: purple;
+}
+.photo{
+    color: purple;
+    font-size: 25px;
+}
+.attest{
+    color: purple;
+}
+#btn{
+    width: 400px;
+    height: 50px;
+    background: purple;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    color: white;
+} 
+:active #btn{
+    background-color: white;
+}
+div #btnn{
+    margin-left: 170px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+}
+@media (max-width:550px) {
+    body{
+        background-color: purple;
+    }
+    .container{
+        background-color: white;
+        width: 350px;
+        height: 1900px;
+        border-radius: 20px;
+
+        padding-left: 10px;
+    }
+    .title{
+        color: purple;
+        margin-left: -200px;
+        
+    }
+    h1{
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .question{
+        font-size: 30px;
+        padding-left: 30px;
+    }
+    .motto{
+        display: none;
+    }
+    .admission{
+        align-items: center;
+        color: purple;
+        margin-left: 50px;
+        font-size: 25px;
+        text-decoration: underline;
+        padding-bottom: 20px;
+    
+    }
+    .student input{
+        width: 200px;
+        height: 20px;
+        border-radius: 5px;
+        outline: none;
+        border: 2px solid purple;
+        justify-content: space-between;
+        margin: 10px;
+        color: purple;
+    }
+    #first{
+        padding-left: 50px;
+    }
+    #second{
+        margin-left: 10px;
+        padding-left: 50px;
+    }
+    #third{
+        padding-left: 50px;
+        margin-left: -0.5px;
+    }
+    #fourth{
+        padding-left: 50px;
+        margin-left: -0.5px;
+    }
+    #fifth{
+        margin-left: -0.5px;
+        padding-left: 50px;
+    }
+    #sixth{
+        padding-left: 50px;
+        margin-left: -0.5px;
+    }
+    #seventh{
+        width: 250px;
+        margin-left: -0.5px;
+    }
+    table{
+       display: none;
+    }
+    .record{
+        color: purple;
+        display: none;
+    }
+    hr{
+        border: 2px solid purple;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    table, tr, th, td{
+        border: 2px solid purple;
+        display: none;
+    }
+    #Date{
+        background-color: purple;
+        color: white;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        width: 60px;
+        margin-left: -0.5px;
+        padding-left: 10px;
+        justify-content: space-between;
+        
+    }
+    #btn{
+        width: 300px;
+        height: 40px;
+        background: purple;
+        border-radius: 50px;
+        border: none;
+        font-size: 20px;
+        color: white;
+    } 
+    div #btnn{
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    :active #btn{
+        background-color: white;
+    }
+    #btn:hover{
+        background-color: black;
+        color: white;
+    }
+}
