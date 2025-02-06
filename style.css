@@ -18,6 +18,8 @@ th{
 }
 h1{
     font-size: 40px;
+    margin-left: -60px;
+    padding-top: 20px;
 }
 .title{
     color: purple;
@@ -165,10 +167,9 @@ div #btnn{
     }
     .container{
         background-color: white;
-        width: 320px;
+        width: 350px;
         height: 2100px;
         border-radius: 20px;
-
         padding-left: 10px;
     }
     .title{
@@ -178,7 +179,7 @@ div #btnn{
     }
     h1{
         font-size: 25px;
-        margin-left: 25px;
+        margin-left: 20px;
     }
     .question{
         font-size: 30px;
