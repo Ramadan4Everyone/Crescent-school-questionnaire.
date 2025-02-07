@@ -7,7 +7,6 @@ body{
     height: 2100px;
     border-radius: 20px;
     margin: 30px  auto;
-    box-shadow: 10px 10px 20px 30px black;
     padding-left: 30px;
 }
 table, tr, th, td{
@@ -39,8 +38,15 @@ h1{
     padding-bottom: 20px;
 
 }
-img{
-    box-shadow: 1px 1px 3px 3px white;
+.screen-image{
+    width: 100px;
+    margin-left: -130px;
+    padding-right: 30px;
+    padding-top: 20px;
+    border-radius: 70%;
+}
+.media-image{
+    display: none;
 }
 .motto{
     background-color: purple;
@@ -54,9 +60,8 @@ span{
 }
 .student input{
     width: 300px;
-    height: 20px;
-    border-radius: 5px;
-    outline: none;
+    height: 25px;
+    border-radius: 30px;
     border: 2px solid purple;
     justify-content: space-between;
     margin: 10px;
@@ -175,11 +180,22 @@ div #btnn{
     .title{
         color: purple;
         margin-left: -200px;
+        margin-top: 20px;
         
     }
     h1{
         font-size: 25px;
         margin-left: 20px;
+    }
+    .screen-image{
+        display: none;
+    }
+    .media-image{
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 100%;
+        border: 2px solid purple;
     }
     .question{
         font-size: 30px;
@@ -199,8 +215,8 @@ div #btnn{
     }
     .student input{
         width: 200px;
-        height: 20px;
-        border-radius: 5px;
+        height: 30px;
+        border-radius: 30px;
         outline: none;
         border: 2px solid purple;
         justify-content: space-between;
