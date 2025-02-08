@@ -4,7 +4,7 @@ body{
 .container{
     background-color: white;
     width: 750px;
-    height: 2100px;
+    height: 2200px;
     border-radius: 20px;
     margin: 30px  auto;
     padding-left: 30px;
@@ -22,7 +22,7 @@ h1{
 }
 .title{
     color: purple;
-    padding-left: 190px;
+    padding-left: 170px;
 }
 .question{
     font-size: 50px;
@@ -39,9 +39,9 @@ h1{
 
 }
 .screen-image{
-    width: 100px;
+    width: 150px;
     margin-left: -130px;
-    padding-right: 30px;
+    padding-right: 10px;
     padding-top: 20px;
     border-radius: 70%;
 }
@@ -99,6 +99,11 @@ span{
 #male{
     width: 20px;
     background-color: purple;
+}
+.media-image:hover{
+    width: 200px;
+    border: 10px solid purple;
+    display: block;
 }
 #female{
     width: 20px;
@@ -173,13 +178,13 @@ div #btnn{
     .container{
         background-color: white;
         width: 350px;
-        height: 2100px;
+        height: 2200px;
         border-radius: 20px;
         padding-left: 10px;
     }
     .title{
         color: purple;
-        margin-left: -200px;
+        margin-left: -150px;
         margin-top: 20px;
         
     }
@@ -195,7 +200,17 @@ div #btnn{
         display: block;
         margin: 0 auto;
         border-radius: 100%;
-        border: 2px solid purple;
+        border: 5px solid purple;
+        transition: 3s;
+        cursor: pointer;
+    }
+    .media-image :hover{
+        width: 200px;
+        border: 10px solid purple;
+    }
+    .csi{
+        margin-left: 120px;
+        display: block;
     }
     .question{
         font-size: 30px;
@@ -207,7 +222,7 @@ div #btnn{
     .admission{
         align-items: center;
         color: purple;
-        margin-left: 50px;
+        margin-left: 40px;
         font-size: 25px;
         text-decoration: underline;
         padding-bottom: 20px;
